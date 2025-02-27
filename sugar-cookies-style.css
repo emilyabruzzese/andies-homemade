@@ -54,6 +54,7 @@ header {
     -webkit-box-shadow: -4px 4px 22px -7px rgba(245,135,127,1);
     -moz-box-shadow: -4px 4px 22px -7px rgba(245,135,127,1);
     box-shadow: -4px 4px 22px -7px rgba(245,135,127,1);
+    z-index: 100;
 }
 
 .header-container{
@@ -220,7 +221,11 @@ header {
     background-size: 170px;
     border-radius: 100px;
 }
-  
+ 
+.accordion-collapse {
+    width: 90vw;
+}
+
 /* Footer */
 footer {
     text-align: center;
