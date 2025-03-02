@@ -54,6 +54,7 @@ header {
     -webkit-box-shadow: -4px 4px 22px -7px rgba(245,135,127,1);
     -moz-box-shadow: -4px 4px 22px -7px rgba(245,135,127,1);
     box-shadow: -4px 4px 22px -7px rgba(245,135,127,1);
+    z-index: 100;
 }
 
 .header-container{
@@ -155,12 +156,33 @@ header {
   
 /* Section Styling */
 .section {
-    padding: 60px 0;
     background-color: #f5e2d4;
+    padding: 60px 0px;
+    margin: 0px 60px;
 }
   
 #intro {
     background-color: #f5d37f;
+    margin: 0px 0px;
+    padding: 30px 20px;
+}
+
+.intro-words {
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon{
+    background-image: url('images/cookie.png')
 }
 
 /* Cookie Category Pictures */
@@ -179,8 +201,8 @@ header {
 }
 
 .caption {
-    color: #f5877f; /* Adjust this color as needed */
-    font-size: 18px; /* Adjust font size as needed */
+    color: #f5877f;
+    font-size: 25px;
 }
 
 .homepage-img{
@@ -192,14 +214,18 @@ header {
 }
 
 .img{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100px;
+    background-size: 170px;
     border-radius: 100px;
 }
-  
+ 
+.accordion-collapse {
+    width: 90vw;
+}
+
 /* Footer */
 footer {
     text-align: center;
