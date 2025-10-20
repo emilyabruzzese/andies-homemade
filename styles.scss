@@ -1,16 +1,74 @@
 body{
-    .hero{
-        .row{
-            .col-5{
-                .img-1{
-                    width: 100px;
-                    height: 100px;
-                }
-                .img-2{
-                    width: 100px;
-                    height: 100px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    background-color: #f9ece3;
+
+    .contact-nav{
+        background: #F5877F;
+        background: radial-gradient(circle, rgba(245, 135, 127, 0.87) 0%, rgba(242, 169, 162, 1) 100%);
+
+    }
+    .navbar{
+        height: 18vh;
+        background: #F2CB68;
+        background: linear-gradient(90deg,rgba(242, 203, 104, 1) 0%, rgba(245, 211, 127, 0.87) 49%, rgba(242, 203, 104, 1) 100%);
+        position: sticky;
+        top: 0px;
+        z-index: 10;
+        .container-fluid{
+            .navbar-collapse{
+                width: 20%;
+                flex-grow: 0;
+                font-size: 18px;
+
+                ul{
+                    li{
+                        a{
+                            color: #773E28;
+                            font-weight: bold;
+                            font-size: 18px;
+                        }
+                    }
                 }
             }
+
+        .logo{
+            img{
+                height:100px;
+                width: 100px;
+            }
+        }
+        .button-wrapper{
+            display: flex;
+            justify-content: flex-end;
+            width: 20%;
+            button{
+            padding: 15px 30px;
+            border-radius: 100px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background-color: #773E28;
+            border: none;
+    
+         }
+        }
+
         }
     }
-}
+
+    #footer{
+        width: 100%;
+        height: 5vh;
+        background-color: rgba(245, 211, 127, 0.5);
+        opacity: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img{
+            height: 30px;
+            width: 30px;
+            margin: 0px 10px;
+        }
+    }
